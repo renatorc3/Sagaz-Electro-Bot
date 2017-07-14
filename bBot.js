@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "V1RTU4LL1F3";
+    var fork = "renatorc3";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -48,8 +48,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "Loli Bot",
       language: "portuguese",
-      chatLink: "https://rawgit.com/V1RTU4LL1F3/fatgasda/master/bBotLang.json",
-      scriptLink: "https://rawgit.com/V1RTU4LL1F3/fatgasda/master/bBot_Source.js",
+      chatLink: "https://rawgit.com/renatorc3/Sagaz-Electro-Bot/master/pt-BR.json",
+      scriptLink: "https://rawgit.com/renatorc3/Sagaz-Electro-Bot/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -93,26 +93,24 @@
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: "https://goo.gl/O5nQJ0" ,
-      themeLink: "http://i.imgur.com/jqCjGXN.png" ,
+      rulesLink: "" ,
+      themeLink: "" ,
       fbLink: "http://goo.gl/fmAu02" ,
       youtubeLink: null,
       website: null,
-      intervalMessages: ["Não esqueça de dar uma olhada nas nossas regras antes de entrar na fila de DJs! ➲ https://goo.gl/O5nQJ0",
-      "Venha fazer parte do nosso grupo no facebook! ➲ http://goo.gl/fmAu02",
+      intervalMessages: ["Não esqueça de dar uma olhada nas nossas regras antes de entrar na fila de DJs! ➲ ",
+      "Venha fazer parte do nosso grupo no facebook! ➲ ",
       "Digite !comandos para receber um link com a lista de comandos completa!",
       "Se um vídeo receber mais votos negativos que positivos, ele será pulado instantâneamente"],
       messageInterval: 5,
       songstats: false,
       commandLiteral: "!",
       blacklists: {
-        gênero: "https://rawgit.com/V1RTU4LL1F3/fatgasda/master/Blacklists/Gênero.json",
-        nudez: "https://rawgit.com/V1RTU4LL1F3/fatgasda/master/Blacklists/Nudez.json",
-        cover: "https://rawgit.com/V1RTU4LL1F3/fatgasda/master/Blacklists/Cover.json"
+        gênero: ""
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/V1RTU4LL1F3/fatgasda/master/bBot_Source.js", extend);
+    $.getScript("https://rawgit.com/renatorc3/Sagaz-Electro-Bot/master/basicBot.js", extend);
 
 }).call(this);
