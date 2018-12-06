@@ -48,8 +48,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "Sagaz Bot",
       language: "portuguese",
-      chatLink: "https://rawgit.com/renatorc3/Sagaz-Electro-Bot/master/pt-BR.json",
-      scriptLink: "https://rawgit.com/renatorc3/Sagaz-Electro-Bot/master/basicBot.js",
+      chatLink: "https://cdn.jsdelivr.net/gh/renatorc3/Sagaz-Electro-Bot/pt-BR.json",
+      scriptLink: "https://cdn.jsdelivr.net/gh/renatorc3/Sagaz-Electro-Bot/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -111,6 +111,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/renatorc3/Sagaz-Electro-Bot/master/basicBot.js", extend);
+    $.getScript("https://cdn.jsdelivr.net/gh/renatorc3/Sagaz-Electro-Bot/basicBot.js", extend);
 
 }).call(this);
